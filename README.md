@@ -19,7 +19,9 @@ Professor: Rafael Roque.
 # Como foi dividido ?
 
 Eduardo Henrique - Gets e Setters.
+
 Maria do Carmo - Tratamento de dados e Formatação de texto.
+
 Joseneto Aguiar - Parte grafica utilizando JavaFX e Scene Builder.
 
 # Como uso? How Works?
