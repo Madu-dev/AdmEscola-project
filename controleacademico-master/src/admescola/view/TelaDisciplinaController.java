@@ -367,8 +367,9 @@ public class TelaDisciplinaController implements Initializable {
         alerta = new Alert(Alert.AlertType.CONFIRMATION);
         int selectedIndex = table.getSelectionModel().getSelectedIndex();
         RadioButton radio = (RadioButton) cargaHoraria.getSelectedToggle();
+        // aqui vai ser o padrão Command da classe Disciplina
         Disciplina user = table.getSelectionModel().getSelectedItem();
-        if (entradaValidaAlt()) {
+        if (entradaValidaAlt()) { // aqui está o padrão Memento da classe Disciplina
             alerta.setTitle("Alterar Dados");
             alerta.setContentText("Deseja alterar os dados de " + user.getNome() + "?");
             Optional<ButtonType> resposta = alerta.showAndWait();

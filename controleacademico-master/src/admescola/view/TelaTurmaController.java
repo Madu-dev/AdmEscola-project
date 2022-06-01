@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+// A classe Turma é o mediador entre as outras classes (aluno,professor e disciplina)
 package admescola.view;
 
 import admescola.model.Disciplina;

@@ -626,12 +626,13 @@ public class TelaProfessorController implements Initializable {
         alerta = new Alert(AlertType.CONFIRMATION);
         int selectedIndex = table.getSelectionModel().getSelectedIndex();
         RadioButton radio = (RadioButton) altSexo.getSelectedToggle();
+        // aqui vai ser o padrão Command da classe professor 
         Usuario user = table.getSelectionModel().getSelectedItem();
-        if (entradaValidaAlt()) {
+        if (entradaValidaAlt()) { // aqui está o padrão Memento da classe professor
             alerta.setTitle("Alterar Dados");
             alerta.setContentText("Deseja alterar os dados de " + user.getNome() + "?");
             Optional<ButtonType> resposta = alerta.showAndWait();
-            if (resposta.get() == ButtonType.OK) {
+            if (resposta.get() == ButtonType.OK) { 
                 user.setNome(altNome.getText());
                 user.setNascimento(altNascimento.getValue());
                 user.setSexo(radio.getText());

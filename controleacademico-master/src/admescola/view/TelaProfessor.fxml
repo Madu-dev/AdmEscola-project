@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
@@ -17,13 +23,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admescola.view.TelaProfessorController">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admescola.view.TelaProfessorController">
    <children>
       <HBox layoutX="125.0" layoutY="104.0" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="192.0" spacing="35.0" style="-fx-background-color: #FF8B93;">
+            <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="192.0" spacing="35.0" style="-fx-background-color: #bc00a0;">
                <children>
-                  <VBox alignment="CENTER" minHeight="170.0" minWidth="192.0" prefHeight="170.0" prefWidth="192.0" style="-fx-background-color: #FF8B93;">
+                  <VBox alignment="CENTER" minHeight="170.0" minWidth="192.0" prefHeight="170.0" prefWidth="192.0">
                      <children>
                         <ImageView fitHeight="138.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true" />
                         <Label text="PROFESSOR" textFill="WHITE">
@@ -33,14 +39,14 @@
                         </Label>
                      </children>
                   </VBox>
-                  <VBox alignment="TOP_CENTER" prefHeight="274.0" prefWidth="192.0" spacing="10.0" style="-fx-background-color: #FF8B93;">
+                  <VBox alignment="TOP_CENTER" prefHeight="274.0" prefWidth="192.0" spacing="10.0">
                      <children>
-                        <Button mnemonicParsing="false" onAction="#clickCadProfessor" prefWidth="192.0" style="-fx-background-color: #FF6973;" text="Cadastrar" textFill="WHITE">
+                        <Button mnemonicParsing="false" onAction="#clickCadProfessor" prefWidth="192.0" style="-fx-background-color: #bc00a0;" text="Cadastrar" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="18.0" />
                            </font>
                         </Button>
-                        <Button mnemonicParsing="false" onAction="#clickExibirProfessor" prefWidth="192.0" style="-fx-background-color: #FF6973;" text="Exibir" textFill="WHITE">
+                        <Button mnemonicParsing="false" onAction="#clickExibirProfessor" prefWidth="192.0" style="-fx-background-color: #bc00a0;" text="Exibir" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="18.0" />
                            </font>
@@ -52,7 +58,7 @@
                   </VBox>
                   <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Button mnemonicParsing="false" onAction="#voltarTelaInicial" style="-fx-background-color: #FF6973;" text="VOLTAR" textFill="WHITE">
+                        <Button mnemonicParsing="false" onAction="#voltarTelaInicial" style="-fx-background-color: #7b00ff;" text="VOLTAR" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
@@ -66,9 +72,9 @@
             </VBox>
             <StackPane prefHeight="600.0" prefWidth="663.0">
                <children>
-                  <VBox fx:id="cadProfessor" alignment="TOP_CENTER" prefHeight="600.0" prefWidth="663.0" spacing="10.0" style="-fx-background-color: #FFBCC0;">
+                  <VBox fx:id="cadProfessor" alignment="TOP_CENTER" prefHeight="600.0" prefWidth="663.0" spacing="10.0" style="-fx-background-color: #d6c2f0;">
                      <children>
-                        <Label text="Cadastro de Professores">
+                        <Label style="-fx-border-color: #ff00c8;" text="Cadastro de Professores">
                            <VBox.margin>
                               <Insets bottom="20.0" top="50.0" />
                            </VBox.margin>
