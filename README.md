@@ -24,6 +24,16 @@ Maria do Carmo - Tratamento de dados e Formatação de texto.
 
 Joseneto Aguiar - Parte grafica utilizando JavaFX e Scene Builder.
 
+# Quais os Padrões de Projetos que foram utilizados nesse projeto ?
+
+- MVC: Usamos o padrão MVC para facilitar o contato entre os dados e o usuário sem que o código fosse modificado.
+- SOLID: Usamos o S do SOLID, responsabilidade única, para deixar organizado quais classe tinham certas tarefas.
+- Mediador: Usamos o padrão Mediador ao fazer uma classe Turma que serve para conectar as classes aluno, professor e disciplina.
+- Command: Usamos o padrão Command ao fazer com que quando o usuário queira fazer uma mudança em aluno, disciplina ou professor os 
+           dados a serem mudados vão para um comando que vai juntar todas as alterações e manda-las em uma ordem para o código.
+- Memento: Usamos o padrão Memento para fazer com que quando o usuário terminasse de escolher as alterações que seriam feitas nas 
+           classes Aluno, Professor ou Disciplina, ele tivesse a opção de voltar a trás  para cancelar as alterações.
+
 # Como uso? How Works?
 
 
