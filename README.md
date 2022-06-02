@@ -23,6 +23,8 @@ Autores do projeto: Eduardo Henrique, Joseneto Aguiar e Maria do Carmo.
 
 Professor: Rafael Roque.
 
+Monitor: João Thalis.
+
 # Como foi dividido ?
 
 Eduardo Henrique - Gets e Setters.
