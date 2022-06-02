@@ -11,7 +11,14 @@ O projeto se trata de um sistema digital de controle acadêmico, que tem como ob
 
 The project is a digital academic control system, which aims to manage and consult the data of a student, teacher, classes, among others.
 
-# Quem são os autores?
+# Qual foi o problema que encontramos ?
+Existe a problemática de ter um sistema acadêmico para cadastro que permita ter uma turma, com a disciplina, professores e alunos. 
+
+# Qual é o nosso objetivo como solução ?
+Nosso projeto tem como objetivo de criar esse sistema de cadastro acadêmico com professores, alunos, disciplinas e turmas. 
+Além de permitir visualizar e atualizar as informações de cada uma das entidades citadas.
+
+# Quem são os autores ?
 Autores do projeto: Eduardo Henrique, Joseneto Aguiar e Maria do Carmo.
 
 Professor: Rafael Roque.
